@@ -131,7 +131,7 @@ for k,v in dep:
 
 t_saldo = d_saldo - s_saldo
 
-if s_saldo and d_saldo == 0:
+if d_saldo and s_saldo == 0:
     print('Não foram realizadas movimentações nesta sessão.')
 
 print
